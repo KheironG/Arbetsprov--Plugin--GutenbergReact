@@ -1,0 +1,32 @@
+{
+    "name": "bergendal-tabbed",
+    "version": "1.0.0",
+    "description": "This is a Gutenberg block used to add tabbed content in the Bergendal Theme",
+    "main": "block.js",
+    "scripts": {
+        "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
+        "dev": "cross-env BABEL_ENV=default webpack --watch"
+    },
+    "author": "Tankbar",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.4",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "cross-env": "^7.0.3",
+        "react": "^18.0.0",
+        "react-content-tabs": "^2.0.0",
+        "react-tabs": "^4.2.0",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ],
+        "plugins": [
+            "transform-react-jsx"
+        ]
+    }
+}

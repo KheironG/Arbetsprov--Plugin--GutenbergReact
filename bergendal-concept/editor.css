@@ -1,0 +1,44 @@
+
+.wp-block-bergendal-blocks-bergendal-concept {
+    font-family: 'Arial';
+    width: 452px;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 20px 20px 27px #EEEEEE;
+}
+
+.bergendal-concept-frame {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    grid-gap: 20px;
+    border: 1px solid green;
+    padding: 15px 15px 15px 15px;
+}
+
+.bergendal-concept-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.block-editor-rich-text__editable.bergendal-concept-description.rich-text {
+    margin: 0px;
+    font-size: 12px;
+}
+
+h3.block-editor-rich-text__editable.bergendal-concept-title.rich-text {
+    margin: 0px;
+    font-size: 19px;
+    text-align: center;
+}
+
+img.bergendal-concept-image {
+    width: 200px;
+    height: auto;
+}

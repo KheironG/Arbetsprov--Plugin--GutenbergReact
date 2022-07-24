@@ -1,0 +1,36 @@
+{
+  "name": "bergendal-calender",
+  "version": "1.0.0",
+  "description": "This is a Gutenberg block used to fetch the latest Bergendal calender events",
+  "main": "block.js",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
+    "dev": "cross-env BABEL_ENV=default webpack --watch"
+  },
+  "author": "Tankbar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@wordpress/api-fetch": "^6.3.0",
+    "@wordpress/block-editor": "^8.5.0",
+    "@wordpress/core-data": "^4.4.0",
+    "@wordpress/data": "^6.6.0",
+    "@wordpress/server-side-render": "^3.4.0",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "cross-env": "^7.0.3",
+    "interweave": "^13.0.0",
+    "lodash.map": "^4.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "transform-react-jsx"
+    ]
+  }
+}

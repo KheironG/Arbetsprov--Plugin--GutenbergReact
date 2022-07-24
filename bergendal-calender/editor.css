@@ -1,0 +1,104 @@
+.wp-block-bergendal-blocks-bergendal-calender {
+    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    grid-gap: 45px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+.bergendal-calender-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 25px;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 20px 20px 27px #EEEEEE;
+    padding: 15px 15px 15px 15px;
+}
+
+.bergendal-calender-frame {
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+    position: relative;
+}
+
+.bergendal-calender-inner-frame-text {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    grid-gap: 70px;
+    padding: 20px 20px 20px 20px;
+}
+
+img.bergendal-calender-inner-frame-image {
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+}
+
+p.bergendal-calender-date,
+p.bergendal-calender-desc {
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+h3.bergendal-calender-title {
+    margin: 0px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.bergendal-calender-image-item-text {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    right: 25%;
+}
+
+a.link-button {
+    width: 100px;
+    background-color: #5E7330;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a.bergendal-calender-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 25px;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 20px 20px 27px #EEEEEE;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
